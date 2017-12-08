@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+    name:
+        label: name
+        type: text
+        searchable: true
+    description:
+        label: description
+        type: text
+        searchable: true
+        invisible: true
+    company_id:
+        label: company_id
+        type: number
+        searchable: true
+    director_id:
+        label: director_id
+        type: number
+        searchable: true
+    slug:
+        label: slug
+        type: text
+        searchable: true

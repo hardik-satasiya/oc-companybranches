@@ -1,0 +1,10 @@
+name: Advertisement
+form: $/hardiksatasiya/branchmanagement/models/advertisement/fields.yaml
+modelClass: HardikSatasiya\BranchManagement\Models\Advertisement
+defaultRedirect: hardiksatasiya/branchmanagement/advertisement
+create:
+    redirect: 'hardiksatasiya/branchmanagement/advertisement/update/:id'
+    redirectClose: hardiksatasiya/branchmanagement/advertisement
+update:
+    redirect: hardiksatasiya/branchmanagement/advertisement
+    redirectClose: hardiksatasiya/branchmanagement/advertisement
