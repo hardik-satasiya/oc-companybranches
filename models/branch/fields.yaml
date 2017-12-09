@@ -1,0 +1,29 @@
+fields:
+    name:
+        label: name
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    company:
+        label: Company
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    manager:
+        label: Manager
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    description:
+        label: Description
+        size: tiny
+        span: full
+        type: textarea

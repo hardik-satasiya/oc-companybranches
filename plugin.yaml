@@ -1,0 +1,33 @@
+plugin:
+    name: 'hardiksatasiya.branchmanagement::lang.plugin.name'
+    description: 'hardiksatasiya.branchmanagement::lang.plugin.description'
+    author: hardik-satasiya
+    icon: oc-icon-bank
+    homepage: ''
+navigation:
+    branches:
+        label: Branches
+        url: hardiksatasiya/branchmanagement/branch
+        icon: icon-bank
+        sideMenu:
+            branches:
+                label: Branches
+                url: hardiksatasiya/branchmanagement/branch
+                icon: icon-bank
+                permissions:
+                    - company
+                    - director
+            advertisements:
+                label: Advertisements
+                url: hardiksatasiya/branchmanagement/advertisement
+                icon: icon-signal
+permissions:
+    company:
+        tab: Branches
+        label: Company
+    director:
+        tab: Branches
+        label: Director
+    manager:
+        tab: Branches
+        label: Manager

@@ -1,0 +1,12 @@
+list: $/hardiksatasiya/branchmanagement/models/branch/columns.yaml
+modelClass: HardikSatasiya\BranchManagement\Models\Branch
+title: Branch
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'hardiksatasiya/branchmanagement/branch/update/:id'

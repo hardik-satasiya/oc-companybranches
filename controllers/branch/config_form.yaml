@@ -1,0 +1,10 @@
+name: Branch
+form: $/hardiksatasiya/branchmanagement/models/branch/fields.yaml
+modelClass: HardikSatasiya\BranchManagement\Models\Branch
+defaultRedirect: hardiksatasiya/branchmanagement/branch
+create:
+    redirect: 'hardiksatasiya/branchmanagement/branch/update/:id'
+    redirectClose: hardiksatasiya/branchmanagement/branch
+update:
+    redirect: hardiksatasiya/branchmanagement/branch
+    redirectClose: hardiksatasiya/branchmanagement/branch

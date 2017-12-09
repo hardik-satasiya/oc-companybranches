@@ -1,0 +1,21 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+    name:
+        label: name
+        type: text
+        searchable: true
+    slug:
+        label: slug
+        type: text
+        searchable: true
+    banner:
+        label: banner
+        type: text
+        searchable: true
+    branch_id:
+        label: branch_id
+        type: number
+        searchable: true

@@ -1,0 +1,26 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table hardiksatasiya_branchmanagement_branch'
+    - builder_table_create_hardiksatasiya_branchmanagement_branch.php
+1.0.3:
+    - 'Updated table hardiksatasiya_branchmanagement_branch'
+    - builder_table_update_hardiksatasiya_branchmanagement_branch.php
+1.0.4:
+    - 'Created table hardiksatasiya_branchmanagement_ads'
+    - builder_table_create_hardiksatasiya_branchmanagement_ads.php
+1.0.5:
+    - 'Updated table hardiksatasiya_branchmanagement_branch'
+    - builder_table_update_hardiksatasiya_branchmanagement_branch_2.php
+1.0.6:
+    - 'Updated table hardiksatasiya_branchmanagement_ads'
+    - builder_table_update_hardiksatasiya_branchmanagement_ads.php
+1.0.7:
+    - 'Created table hardiksatasiya_branchmanagement_parentinfo'
+    - builder_table_create_hardiksatasiya_branchmanagement_parentinfo.php
+1.0.8:
+    - 'Updated table hardiksatasiya_branchmanagement_parentinfo'
+    - builder_table_update_hardiksatasiya_branchmanagement_parentinfo.php
+1.0.9:
+    - 'Updated table hardiksatasiya_branchmanagement_parentinfo'
+    - builder_table_update_hardiksatasiya_branchmanagement_parentinfo_2.php
